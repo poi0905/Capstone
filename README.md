@@ -1,1 +1,3 @@
 # Capstone
+
+In this capstone project, we collaborated closely with Taipei Fubon Bank to predict potential buyers of investment-linked insurance. Our dataset comprised Fubon's four-month customer data, characterized by 120,000 unbalanced and sparse entries with hashed column names. To achieve our objective, we employed advanced techniques. We harnessed XGBoost and Random Forest models, incorporating Top N numerical feature selection, as well as undersampling and oversampling techniques. Through these methods, we achieved a notable AUC of 0.813. This outcome was particularly accomplished by applying undersampling in conjunction with XGBoost, utilizing a set of 100 features.
